@@ -1,7 +1,7 @@
 console.log("Nous allons jouer à un quizz sur le tableau des types de Pokémon :)")
 let score = 0;
 // question 1
-var question = prompt ("Quel type est super efficace contre le type Combat ?");
+var question = prompt ("1) Quel type est super efficace contre le type Combat ?");
     if (question ==="vol"){
     console.log("Correct! +1");
     score++;
@@ -9,7 +9,7 @@ var question = prompt ("Quel type est super efficace contre le type Combat ?");
     console.log ("Faux... +0");
 }
 // question 2
-var question = prompt ("Quel type est totalement immunisé contre les attaques de type Normal ?");
+var question = prompt ("2) Quel type est totalement immunisé contre les attaques de type Normal ?");
     if (question ==="spectre"){
     console.log("Correct! +1");
     score++;
@@ -17,7 +17,7 @@ var question = prompt ("Quel type est totalement immunisé contre les attaques d
     console.log ("Faux... +0");
 }
 // question 3
-var question = prompt ("Quel type est faible face aux attaques de type Fée ?");
+var question = prompt ("3) Quel type est faible face aux attaques de type Fée ?");
     if (question ==="dragon"){
     console.log("Correct! +1");
     score++;
@@ -25,7 +25,7 @@ var question = prompt ("Quel type est faible face aux attaques de type Fée ?");
     console.log ("Faux... +0");
 }
 // question 4
-var question = prompt ("Quel type a une double faiblesse aux attaques de type Roche ?");
+var question = prompt ("4) Quel type a une double faiblesse aux attaques de type Roche ?");
     if (question ==="glace"){
     console.log("Correct! +1");
     score++;
@@ -33,7 +33,7 @@ var question = prompt ("Quel type a une double faiblesse aux attaques de type Ro
     console.log ("Faux... +0");
 }
 // question 5
-var question = prompt ("Quel type n’a aucune faiblesse en première génération ?");
+var question = prompt ("5) Quel type n’a aucune faiblesse en première génération ?");
     if (question ==="spectre"){
     console.log("Correct! +1");
     score++;
@@ -41,7 +41,7 @@ var question = prompt ("Quel type n’a aucune faiblesse en première générati
     console.log ("Faux... +0");
 }
 // question 6
-var question = prompt ("Quel type est inefficace contre le type Spectre ?");
+var question = prompt ("6) Quel type est inefficace contre le type Spectre ?");
     if (question ==="normal"){
     console.log("Correct! +1");
     score++;
@@ -49,7 +49,7 @@ var question = prompt ("Quel type est inefficace contre le type Spectre ?");
     console.log ("Faux... +0");
 }
 // question 7
-var question = prompt ("Quel type résiste aux attaques de type Plante mais est faible face aux attaques de type Glace ?");
+var question = prompt ("7) Quel type résiste aux attaques de type Plante mais est faible face aux attaques de type Glace ?");
     if (question ==="sol"){
     console.log("Correct! +1");
     score++;
@@ -57,7 +57,7 @@ var question = prompt ("Quel type résiste aux attaques de type Plante mais est 
     console.log ("Faux... +0");
 }
 // question 8
-var question = prompt ("Quel type est super efficace contre le type Vol ?");
+var question = prompt ("8) Quel type est super efficace contre le type Vol ?");
     if (question ==="électrique"){
     console.log("Correct! +1");
     score++;
@@ -65,7 +65,7 @@ var question = prompt ("Quel type est super efficace contre le type Vol ?");
     console.log ("Faux... +0");
 }
 // question 9
-var question = prompt ("Quel type est efficace contre le type Acier ?");
+var question = prompt ("9) Quel type est efficace contre le type Acier ?");
     if (question ==="feu"){
     console.log("Correct! +1");
     score++;
@@ -73,7 +73,7 @@ var question = prompt ("Quel type est efficace contre le type Acier ?");
     console.log ("Faux... +0");
 }
 // question 10
-var question = prompt ("Quel type est totalement inefficace contre le type Sol ?");
+var question = prompt ("10) Quel type est totalement inefficace contre le type Sol ?");
     if (question ==="électrique"){
     console.log("Correct! +1");
     score++;
