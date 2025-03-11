@@ -12,6 +12,7 @@ var question = prompt ("Quel type est super efficace contre le type Combat ?");
 var question = prompt ("Quel type est totalement immunisé contre les attaques de type Normal ?");
     if (question ==="spectre"){
     console.log("Correct! +1");
+    score++;
 } else {
     console.log ("Faux... +0");
 }
@@ -19,6 +20,7 @@ var question = prompt ("Quel type est totalement immunisé contre les attaques d
 var question = prompt ("Quel type est faible face aux attaques de type Fée ?");
     if (question ==="dragon"){
     console.log("Correct! +1");
+    score++;
 } else {
     console.log ("Faux... +0");
 }
@@ -26,6 +28,7 @@ var question = prompt ("Quel type est faible face aux attaques de type Fée ?");
 var question = prompt ("Quel type a une double faiblesse aux attaques de type Roche ?");
     if (question ==="glace"){
     console.log("Correct! +1");
+    score++;
 } else {
     console.log ("Faux... +0");
 }
@@ -33,6 +36,7 @@ var question = prompt ("Quel type a une double faiblesse aux attaques de type Ro
 var question = prompt ("Quel type n’a aucune faiblesse en première génération ?");
     if (question ==="spectre"){
     console.log("Correct! +1");
+    score++;
 } else {
     console.log ("Faux... +0");
 }
@@ -40,6 +44,7 @@ var question = prompt ("Quel type n’a aucune faiblesse en première générati
 var question = prompt ("Quel type est inefficace contre le type Spectre ?");
     if (question ==="normal"){
     console.log("Correct! +1");
+    score++;
 } else {
     console.log ("Faux... +0");
 }
@@ -47,13 +52,15 @@ var question = prompt ("Quel type est inefficace contre le type Spectre ?");
 var question = prompt ("Quel type résiste aux attaques de type Plante mais est faible face aux attaques de type Glace ?");
     if (question ==="sol"){
     console.log("Correct! +1");
+    score++;
 } else {
     console.log ("Faux... +0");
 }
 // question 8
 var question = prompt ("Quel type est super efficace contre le type Vol ?");
-    if (question ==="électrik"){
+    if (question ==="électrique"){
     console.log("Correct! +1");
+    score++;
 } else {
     console.log ("Faux... +0");
 }
@@ -61,13 +68,16 @@ var question = prompt ("Quel type est super efficace contre le type Vol ?");
 var question = prompt ("Quel type est efficace contre le type Acier ?");
     if (question ==="feu"){
     console.log("Correct! +1");
+    score++;
 } else {
     console.log ("Faux... +0");
 }
 // question 10
 var question = prompt ("Quel type est totalement inefficace contre le type Sol ?");
-    if (question ==="électrik"){
+    if (question ==="électrique"){
     console.log("Correct! +1");
+    score++;
 } else {
     console.log ("Faux... +0");
 } 
+alert("Ta note finale est de " + score + "/10.");
