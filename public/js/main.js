@@ -291,97 +291,39 @@ btn28.addEventListener("click",() => {
     scoretest.innerText = score
     sections[9].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
     sections[9].classList.add("gg")
+    if (sections[10]) {
+        sections[10].hidden = !sections[10].hidden;
+    }
     });
 btn29.addEventListener("click",() => {
         console.log("Faux... +0");
         sections[9].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
         sections[9].classList.add("ff")
+        if (sections[10]) {
+            sections[10].hidden = !sections[10].hidden;
+        }
         });
 btn30.addEventListener("click",() => {
             console.log("Faux... +0");
             sections[9].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[9].classList.add("ff")
+            if (sections[10]) {
+                sections[10].hidden = !sections[10].hidden;
+            }
             });
-// // question 1
-// var question = prompt ("1) Quel type est super efficace contre le type Combat ?");
-//     if (question ==="vol"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// }
-// // question 2
-// var question = prompt ("2) Quel type est totalement immunisé contre les attaques de type Normal ?");
-//     if (question ==="spectre"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// }
-// // question 3
-// var question = prompt ("3) Quel type est faible face aux attaques de type Fée ?");
-//     if (question ==="dragon"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// }
-// // question 4
-// var question = prompt ("4) Quel type a une double faiblesse aux attaques de type Roche ?");
-//     if (question ==="glace"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// }
-// // question 5
-// var question = prompt ("5) Quel type n’a aucune faiblesse en première génération ?");
-//     if (question ==="spectre"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// }
-// // question 6
-// var question = prompt ("6) Quel type est inefficace contre le type Spectre ?");
-//     if (question ==="normal"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// }
-// // question 7
-// var question = prompt ("7) Quel type résiste aux attaques de type Plante mais est faible face aux attaques de type Glace ?");
-//     if (question ==="sol"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// }
-// // question 8
-// var question = prompt ("8) Quel type est super efficace contre le type Vol ?");
-//     if (question ==="électrique"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// }
-// // question 9
-// var question = prompt ("9) Quel type est efficace contre le type Acier ?");
-//     if (question ==="feu"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// }
-// // question 10
-// var question = prompt ("10) Quel type est totalement inefficace contre le type Sol ?");
-//     if (question ==="électrique"){
-//     console.log("Correct! +1");
-//     score++;
-// } else {
-//     console.log ("Faux... +0");
-// } 
-// alert("Ta note finale est de " + score + "/10.");
-// --------------------
-// div[2].innerHTML="<h1>Votre score: 1</h1>"
+let btn31=sections[10].querySelector("button")
+btn31.addEventListener("click",() => {
+    sections.forEach(section => {
+        section.remove()
+    if (score >= 0 && score <= 3) {
+        div[2].innerHTML="<h3>Tu ne passeras jamais le conseil 4 comme ça!</h3>"
+            console.log("Tu ne passeras jamais le conseil 4 comme ça!");
+    } else if (score >= 4 && score <= 6) {
+        div[2].innerHTML="<h3>Encore un peu d'entrainement et tu deviendras le meilleur dresseur!</h3>"
+        console.log("Encore un peu d'entrainement et tu deviendras le meilleur dresseur!");
+    } else if (score >= 7 && score <= 10) {
+        div[2].innerHTML="<h3>tu es vraiment le meilleur dresseur!</h3>"
+        console.log("Tu es vraiment le meilleur dresseur!");}
+    })
+    
+});
