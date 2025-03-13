@@ -25,3 +25,19 @@ body{
     border: 1px solid white;
     transition: 0.5s;
 }
+#scoredroit{
+        float: right;
+        padding-right: 30px; 
+        color: white;
+        background-color: rgba(13,202,240,255);
+        width: fit-content;
+        border-radius: 15px; 
+        font-family: monospace;
+}
+#dresseurdroit{
+    color:white;
+    background-color: rgba(13,202,240,255);
+    width: fit-content;
+    border-radius: 15px; 
+    font-family: monospace;
+}
