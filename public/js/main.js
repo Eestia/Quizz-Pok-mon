@@ -193,33 +193,27 @@ btn27.addEventListener("click",() => {
             sections[8].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[8].classList.add("ff")
             });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// question 10
+let element28=sections[9].querySelector(".btn28")
+let element29=sections[9].querySelector(".btn29")
+let element30=sections[9].querySelector(".btn30")
+btn28.addEventListener("click",() => {
+    console.log("Correct! +1");
+    score++;
+    scoretest.innerText = score
+    sections[9].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
+    sections[9].classList.add("gg")
+    });
+btn29.addEventListener("click",() => {
+        console.log("Faux... +0");
+        sections[9].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+        sections[9].classList.add("ff")
+        });
+btn30.addEventListener("click",() => {
+            console.log("Faux... +0");
+            sections[9].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+            sections[9].classList.add("ff")
+            });
 // // question 1
 // var question = prompt ("1) Quel type est super efficace contre le type Combat ?");
 //     if (question ==="vol"){
