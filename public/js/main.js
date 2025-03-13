@@ -56,21 +56,21 @@ btn5.addEventListener("click",() => {
     }
     });
 btn4.addEventListener("click",() => {
-        console.log("Faux... +0");
-        sections[1].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
-        sections[1].classList.add("ff")
-        if (sections[2]) {
-            sections[2].hidden = !sections[2].hidden;
-        }
-        });
+    console.log("Faux... +0");
+    sections[1].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+    sections[1].classList.add("ff")
+    if (sections[2]) {
+        sections[2].hidden = !sections[2].hidden;
+    }
+    });
 btn6.addEventListener("click",() => {
-            console.log("Faux... +0");
-            sections[1].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
-            sections[1].classList.add("ff")
-            if (sections[2]) {
-                sections[2].hidden = !sections[2].hidden;
-            }
-            });
+    console.log("Faux... +0");
+    sections[1].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+    sections[1].classList.add("ff")
+    if (sections[2]) {
+        sections[2].hidden = !sections[2].hidden;
+    }
+    });
 // question 3
 let element7=sections[2].querySelector(".btn7")
 let element8=sections[2].querySelector(".btn8")
@@ -81,17 +81,26 @@ btn7.addEventListener("click",() => {
     scoretest.innerText = score
     sections[2].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
     sections[2].classList.add("gg")
+    if (sections[3]) {
+        sections[3].hidden = !sections[3].hidden;
+    }
     });
 btn8.addEventListener("click",() => {
-        console.log("Faux... +0");
-        sections[2].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
-        sections[2].classList.add("ff")
-        });
+    console.log("Faux... +0");
+    sections[2].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+    sections[2].classList.add("ff")
+    if (sections[3]) {
+        sections[3].hidden = !sections[3].hidden;
+    }
+    });
 btn9.addEventListener("click",() => {
-            console.log("Faux... +0");
-            sections[2].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
-            sections[2].classList.add("ff")
-            });
+    console.log("Faux... +0");
+    sections[2].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+    sections[2].classList.add("ff")
+    if (sections[3]) {
+        sections[3].hidden = !sections[3].hidden;
+    }
+    });
 // question 4
 let element10=sections[3].querySelector(".btn10")
 let element11=sections[3].querySelector(".btn11")
@@ -102,16 +111,25 @@ btn12.addEventListener("click",() => {
     scoretest.innerText = score
     sections[3].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
     sections[3].classList.add("gg")
+    if (sections[4]) {
+        sections[4].hidden = !sections[4].hidden;
+    }
     });
 btn11.addEventListener("click",() => {
         console.log("Faux... +0");
         sections[3].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
         sections[3].classList.add("ff")
+        if (sections[4]) {
+            sections[4].hidden = !sections[4].hidden;
+        }
         });
 btn10.addEventListener("click",() => {
             console.log("Faux... +0");
             sections[3].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[3].classList.add("ff")
+            if (sections[4]) {
+                sections[4].hidden = !sections[4].hidden;
+            }
             });
 // question 5
 let element13=sections[4].querySelector(".btn13")
@@ -123,16 +141,25 @@ btn15.addEventListener("click",() => {
     scoretest.innerText = score
     sections[4].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
     sections[4].classList.add("gg")
+    if (sections[5]) {
+        sections[5].hidden = !sections[5].hidden;
+    }
     });
 btn14.addEventListener("click",() => {
         console.log("Faux... +0");
         sections[4].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
         sections[4].classList.add("ff")
+        if (sections[5]) {
+            sections[5].hidden = !sections[5].hidden;
+        }
         });
 btn13.addEventListener("click",() => {
             console.log("Faux... +0");
             sections[4].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[4].classList.add("ff")
+            if (sections[5]) {
+                sections[5].hidden = !sections[5].hidden;
+            }
             });
 // question 6
 let element16=sections[5].querySelector(".btn16")
