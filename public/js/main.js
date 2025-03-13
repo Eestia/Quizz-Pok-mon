@@ -130,8 +130,27 @@ btn18.addEventListener("click",() => {
             sections[5].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[5].classList.add("ff")
             });
-
-
+// question 7
+let element19=sections[6].querySelector(".btn19")
+let element20=sections[6].querySelector(".btn20")
+let element21=sections[6].querySelector(".btn21")
+btn21.addEventListener("click",() => {
+    console.log("Correct! +1");
+    score++;
+    scoretest.innerText = score
+    sections[6].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
+    sections[6].classList.add("gg")
+    });
+btn20.addEventListener("click",() => {
+        console.log("Faux... +0");
+        sections[6].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+        sections[6].classList.add("ff")
+        });
+btn19.addEventListener("click",() => {
+            console.log("Faux... +0");
+            sections[6].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+            sections[6].classList.add("ff")
+            });
 
 
 
