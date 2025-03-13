@@ -6,3 +6,22 @@ body{
     height: 100%;
     background-image: url(../assets/img/sobble.jpg);
 }
+
+.gg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    color: green;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+.ff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 68, 47);
+    color: rgb(90, 10, 0);
+    border: 1px solid white;
+    transition: 0.5s;
+}
