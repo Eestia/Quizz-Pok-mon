@@ -285,7 +285,7 @@ btn27.addEventListener("click",() => {
 let element28=sections[9].querySelector(".btn28")
 let element29=sections[9].querySelector(".btn29")
 let element30=sections[9].querySelector(".btn30")
-btn28.addEventListener("click",() => {
+btn30.addEventListener("click",() => {
     console.log("Correct! +1");
     score++;
     scoretest.innerText = score
@@ -303,7 +303,7 @@ btn29.addEventListener("click",() => {
             sections[10].hidden = !sections[10].hidden;
         }
         });
-btn30.addEventListener("click",() => {
+btn28.addEventListener("click",() => {
             console.log("Faux... +0");
             sections[9].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[9].classList.add("ff")
