@@ -1,8 +1,12 @@
 var question = prompt("pour continuer, indique ton prénom");
 console.log("Nous allons jouer à un quizz sur le tableau des types de Pokémon :)")
 let score = 0;
+let pseudo = document.querySelector("#pseudo")
+pseudo.innerText = question
 let sections = document.querySelectorAll("section")
 let div = document.querySelectorAll("div")
+// let vrai = new Audio("vrai.mp3");
+// let faux = new Audio("faux.mp3");
 // question 1
 let element=sections[0].querySelector(".btn1")
 let element2=sections[0].querySelector(".btn2")
@@ -12,16 +16,19 @@ btn1.addEventListener("click",() => {
     console.log("Correct! +1");
     score++;
     scoretest.innerText = score
+    // vrai.play();
     sections[0].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
     sections[0].classList.add("gg")
     });
 btn2.addEventListener("click",() => {
         console.log("Faux... +0");
+        // faux.play();
         sections[0].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
         sections[0].classList.add("ff")
         });
 btn3.addEventListener("click",() => {
             console.log("Faux... +0");
+            faux.play();
             sections[0].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[0].classList.add("ff")
             });
