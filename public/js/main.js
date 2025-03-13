@@ -88,6 +88,27 @@ btn10.addEventListener("click",() => {
             sections[3].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[3].classList.add("ff")
             });
+// question 5
+let element13=sections[4].querySelector(".btn13")
+let element14=sections[4].querySelector(".btn14")
+let element15=sections[4].querySelector(".btn15")
+btn15.addEventListener("click",() => {
+    console.log("Correct! +1");
+    score++;
+    scoretest.innerText = score
+    sections[4].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
+    sections[4].classList.add("gg")
+    });
+btn14.addEventListener("click",() => {
+        console.log("Faux... +0");
+        sections[4].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+        sections[4].classList.add("ff")
+        });
+btn13.addEventListener("click",() => {
+            console.log("Faux... +0");
+            sections[4].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+            sections[4].classList.add("ff")
+            });
 
 
 
