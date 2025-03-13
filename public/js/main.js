@@ -109,6 +109,28 @@ btn13.addEventListener("click",() => {
             sections[4].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[4].classList.add("ff")
             });
+// question 6
+let element16=sections[5].querySelector(".btn16")
+let element17=sections[5].querySelector(".btn17")
+let element18=sections[5].querySelector(".btn18")
+btn16.addEventListener("click",() => {
+    console.log("Correct! +1");
+    score++;
+    scoretest.innerText = score
+    sections[5].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
+    sections[5].classList.add("gg")
+    });
+btn17.addEventListener("click",() => {
+        console.log("Faux... +0");
+        sections[5].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+        sections[5].classList.add("ff")
+        });
+btn18.addEventListener("click",() => {
+            console.log("Faux... +0");
+            sections[5].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+            sections[5].classList.add("ff")
+            });
+
 
 
 
