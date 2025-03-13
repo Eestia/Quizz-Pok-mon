@@ -172,7 +172,27 @@ btn24.addEventListener("click",() => {
             sections[7].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[7].classList.add("ff")
             });
-
+// question 9
+let element25=sections[8].querySelector(".btn25")
+let element26=sections[8].querySelector(".btn26")
+let element27=sections[8].querySelector(".btn27")
+btn25.addEventListener("click",() => {
+    console.log("Correct! +1");
+    score++;
+    scoretest.innerText = score
+    sections[8].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
+    sections[8].classList.add("gg")
+    });
+btn26.addEventListener("click",() => {
+        console.log("Faux... +0");
+        sections[8].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+        sections[8].classList.add("ff")
+        });
+btn27.addEventListener("click",() => {
+            console.log("Faux... +0");
+            sections[8].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
+            sections[8].classList.add("ff")
+            });
 
 
 
