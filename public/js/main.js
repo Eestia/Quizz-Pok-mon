@@ -19,18 +19,27 @@ btn1.addEventListener("click",() => {
     // vrai.play();
     sections[0].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
     sections[0].classList.add("gg")
+    if (sections[1]) {
+        sections[1].hidden = !sections[1].hidden;
+    }
     });
 btn2.addEventListener("click",() => {
         console.log("Faux... +0");
         // faux.play();
         sections[0].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
         sections[0].classList.add("ff")
+        if (sections[1]) {
+            sections[1].hidden = !sections[1].hidden;
+        }
         });
 btn3.addEventListener("click",() => {
             console.log("Faux... +0");
-            faux.play();
+        // faux.play();
             sections[0].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[0].classList.add("ff")
+            if (sections[1]) {
+                sections[1].hidden = !sections[1].hidden;
+            }
             });
 // question 2
 let element4=sections[1].querySelector(".btn4")
@@ -42,16 +51,25 @@ btn5.addEventListener("click",() => {
     scoretest.innerText = score
     sections[1].innerHTML="<h3>Bonne réponse ദ്ദി ( ᵔ ᗜ ᵔ )</h3>"
     sections[1].classList.add("gg")
+    if (sections[2]) {
+        sections[2].hidden = !sections[2].hidden;
+    }
     });
 btn4.addEventListener("click",() => {
         console.log("Faux... +0");
         sections[1].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
         sections[1].classList.add("ff")
+        if (sections[2]) {
+            sections[2].hidden = !sections[2].hidden;
+        }
         });
 btn6.addEventListener("click",() => {
             console.log("Faux... +0");
             sections[1].innerHTML="<h3>Mauvaise réponse ( • ᴖ • ｡ )</h3>"
             sections[1].classList.add("ff")
+            if (sections[2]) {
+                sections[2].hidden = !sections[2].hidden;
+            }
             });
 // question 3
 let element7=sections[2].querySelector(".btn7")
